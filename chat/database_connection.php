@@ -1,5 +1,5 @@
 <?php
-$connect = new PDO("mysql:host=hamzadwhamza.mysql.db;dbname=hamzadwhamza;charset=utf8mb4", "hamzadwhamza", "bella7905Hb");
+$connect = new PDO("");
 date_default_timezone_set('Europe/Paris');
 function fetch_user_last_activity($user_id, $connect)
 {
