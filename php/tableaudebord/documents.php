@@ -126,8 +126,8 @@
 if (isset($_POST['delete'])){
   $delete=$_POST['delete'];
   
-  $file=$_SERVER['DOCUMENT_ROOT'].'/NanoDoc/uploads/'.$username.'/';
-  var_dump($file);
+  $file=$_SERVER['DOCUMENT_ROOT'].'/Nanodoc/uploads/'.$username.'/';
+  //var_dump($file);
   //var_dump($dir);
   
 }
